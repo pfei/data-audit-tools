@@ -1,0 +1,29 @@
+# ------------------
+# Data Files
+# ------------------
+# Ignore generated data files to keep the repository light and reproducible.
+grand_livre_10k.csv
+
+# ------------------
+# Environment
+# ------------------
+# Virtual environment folders
+venv/
+.venv/
+# Python build and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/Editor files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Dependencies file lock (optional, depends on project standard)
+# If you prefer only 'requirements.txt' to be committed:
+# poetry.lock
